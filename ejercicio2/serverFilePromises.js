@@ -25,4 +25,4 @@ function onFail() {
     console.log('Error al guardar el fichero');
 }
 
-fi = saveFile(f).then(onSuccess).then(onFail);
+fi = saveFile(f).then(onSuccess).fail(onFail).done();
