@@ -4,7 +4,7 @@ var fs = require('fs');
 var f = {
     'name':         'ejerciciopromises',
     'text':         'texto fichero promises',
-    'extension':    '.txt'
+    'extension':    'txt'
 };
 
 function saveFile(obj) {
