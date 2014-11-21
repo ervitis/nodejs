@@ -1,0 +1,10 @@
+{
+    "name"        : "CursoNodejs",
+    "version"     : "1.0.0",
+    "dependencies": {
+        "q"        : "latest",
+        "mongodb"  : "latest",
+        "express"  : "4.0.0",
+	"body-parser": "~1.0.1"
+    }
+}
